@@ -5,7 +5,7 @@ function App() {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch('https://clouddevbackend-e9f7g2h3hdhrbpde.centralus-01.azurewebsites.net/api/students')
+    fetch('https://clouddev3.azurewebsites.net/api/students')
       .then(res => res.json())
       .then(data => setStudents(data))
       .catch(err => console.error('Error fetching students:', err));
