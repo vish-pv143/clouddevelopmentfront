@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Student List</h1>
+      <h1>Student List of Avanti Kantumuchu</h1>
       <table border="1" cellPadding="10">
         <thead>
           <tr>
